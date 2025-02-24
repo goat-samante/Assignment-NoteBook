@@ -34,5 +34,5 @@ struct AddAssignmentView: View {
 }
 
 #Preview {
-    AddItemView()
+    AddAssignmentView(assignmentList: AssignmentList())
 }
