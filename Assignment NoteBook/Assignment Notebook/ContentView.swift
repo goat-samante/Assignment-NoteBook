@@ -23,8 +23,12 @@ struct ContentView: View {
                         Text(item.dueDate, style: .date)
                     }
                 }
-                .onMove(perform: move)
-                .onDelete(perform: delete)
+                .onMove(perform: { indices, newOffset in
+                    assignmentList.items.move(fromOffsets: indices, toOffset: newOffset)
+                })
+                .onDelete(perform: { indexSet in
+                    assignmentList.items.remove(atOffsets: indexSet)
+                })
             }
             .navigationBarTitle("Assignments")
             .navigationBarItems(leading: EditButton(), trailing: Button(action: {
@@ -36,14 +40,6 @@ struct ContentView: View {
                 AddAssignmentView(assignmentList: assignmentList)
             }
         }
-    }
-    
-    func move(from source: IndexSet, to destination: Int) {
-        assignmentList.items.move(fromOffsets: source, toOffset: destination)
-    }
-    
-    func delete(at offsets: IndexSet) {
-        assignmentList.items.remove(atOffsets: offsets)
     }
 }
 
