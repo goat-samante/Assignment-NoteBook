@@ -6,25 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D5B210732D4D22D500115257 /* Assignmen View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B210722D4D22D500115257 /* Assignmen View.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		D5B210612D492F2100115257 /* Assignment NoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment NoteBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5B210722D4D22D500115257 /* Assignmen View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assignmen View.swift"; sourceTree = "<group>"; };
+		D5B210B32D68D29400115257 /* Assignment Notebook Final version.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment Notebook Final version.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D5B210632D492F2100115257 /* Assignment NoteBook */ = {
+		D5B210B52D68D29400115257 /* Assignment Notebook Final version */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Assignment NoteBook";
+			path = "Assignment Notebook Final version";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D5B2105E2D492F2100115257 /* Frameworks */ = {
+		D5B210B02D68D29400115257 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,19 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D5B210582D492F2100115257 = {
+		D5B210AA2D68D29400115257 = {
 			isa = PBXGroup;
 			children = (
-				D5B210722D4D22D500115257 /* Assignmen View.swift */,
-				D5B210632D492F2100115257 /* Assignment NoteBook */,
-				D5B210622D492F2100115257 /* Products */,
+				D5B210B52D68D29400115257 /* Assignment Notebook Final version */,
+				D5B210B42D68D29400115257 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D5B210622D492F2100115257 /* Products */ = {
+		D5B210B42D68D29400115257 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5B210612D492F2100115257 /* Assignment NoteBook.app */,
+				D5B210B32D68D29400115257 /* Assignment Notebook Final version.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5B210602D492F2100115257 /* Assignment NoteBook */ = {
+		D5B210B22D68D29400115257 /* Assignment Notebook Final version */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5B2106F2D492F2300115257 /* Build configuration list for PBXNativeTarget "Assignment NoteBook" */;
+			buildConfigurationList = D5B210C12D68D29700115257 /* Build configuration list for PBXNativeTarget "Assignment Notebook Final version" */;
 			buildPhases = (
-				D5B2105D2D492F2100115257 /* Sources */,
-				D5B2105E2D492F2100115257 /* Frameworks */,
-				D5B2105F2D492F2100115257 /* Resources */,
+				D5B210AF2D68D29400115257 /* Sources */,
+				D5B210B02D68D29400115257 /* Frameworks */,
+				D5B210B12D68D29400115257 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D5B210632D492F2100115257 /* Assignment NoteBook */,
+				D5B210B52D68D29400115257 /* Assignment Notebook Final version */,
 			);
-			name = "Assignment NoteBook";
+			name = "Assignment Notebook Final version";
 			packageProductDependencies = (
 			);
-			productName = "Assignment NoteBook";
-			productReference = D5B210612D492F2100115257 /* Assignment NoteBook.app */;
+			productName = "Assignment Notebook Final version";
+			productReference = D5B210B32D68D29400115257 /* Assignment Notebook Final version.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D5B210592D492F2100115257 /* Project object */ = {
+		D5B210AB2D68D29400115257 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					D5B210602D492F2100115257 = {
+					D5B210B22D68D29400115257 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = D5B2105C2D492F2100115257 /* Build configuration list for PBXProject "Assignment NoteBook" */;
+			buildConfigurationList = D5B210AE2D68D29400115257 /* Build configuration list for PBXProject "Assignment Notebook Final version" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D5B210582D492F2100115257;
+			mainGroup = D5B210AA2D68D29400115257;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = D5B210622D492F2100115257 /* Products */;
+			productRefGroup = D5B210B42D68D29400115257 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5B210602D492F2100115257 /* Assignment NoteBook */,
+				D5B210B22D68D29400115257 /* Assignment Notebook Final version */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D5B2105F2D492F2100115257 /* Resources */ = {
+		D5B210B12D68D29400115257 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,18 +115,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D5B2105D2D492F2100115257 /* Sources */ = {
+		D5B210AF2D68D29400115257 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B210732D4D22D500115257 /* Assignmen View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D5B2106D2D492F2300115257 /* Debug */ = {
+		D5B210BF2D68D29700115257 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		D5B2106E2D492F2300115257 /* Release */ = {
+		D5B210C02D68D29700115257 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,14 +244,14 @@
 			};
 			name = Release;
 		};
-		D5B210702D492F2300115257 /* Debug */ = {
+		D5B210C22D68D29700115257 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Assignment NoteBook/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Assignment Notebook Final version/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -271,7 +264,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Samuel-Amante.Assignment-NoteBook";
+				PRODUCT_BUNDLE_IDENTIFIER = "Samuel-Amante.Assignment-Notebook-Final-version";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -279,14 +272,14 @@
 			};
 			name = Debug;
 		};
-		D5B210712D492F2300115257 /* Release */ = {
+		D5B210C32D68D29700115257 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Assignment NoteBook/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Assignment Notebook Final version/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -299,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Samuel-Amante.Assignment-NoteBook";
+				PRODUCT_BUNDLE_IDENTIFIER = "Samuel-Amante.Assignment-Notebook-Final-version";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5B2105C2D492F2100115257 /* Build configuration list for PBXProject "Assignment NoteBook" */ = {
+		D5B210AE2D68D29400115257 /* Build configuration list for PBXProject "Assignment Notebook Final version" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5B2106D2D492F2300115257 /* Debug */,
-				D5B2106E2D492F2300115257 /* Release */,
+				D5B210BF2D68D29700115257 /* Debug */,
+				D5B210C02D68D29700115257 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B2106F2D492F2300115257 /* Build configuration list for PBXNativeTarget "Assignment NoteBook" */ = {
+		D5B210C12D68D29700115257 /* Build configuration list for PBXNativeTarget "Assignment Notebook Final version" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5B210702D492F2300115257 /* Debug */,
-				D5B210712D492F2300115257 /* Release */,
+				D5B210C22D68D29700115257 /* Debug */,
+				D5B210C32D68D29700115257 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D5B210592D492F2100115257 /* Project object */;
+	rootObject = D5B210AB2D68D29400115257 /* Project object */;
 }
