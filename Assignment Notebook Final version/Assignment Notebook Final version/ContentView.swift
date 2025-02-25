@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Assignment Notebook Final version
+//  To-Do-List
 //
 //  Created by Samuel Amante on 2/21/25.
 //
