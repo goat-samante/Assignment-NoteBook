@@ -9,8 +9,7 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var assignmentList = AssignmentList()
     @State private var showingAddAssignmentView = false
-    
-    var body: some View {
+   var body: some View {
         NavigationView {
             List {
                 ForEach(assignmentList.items) { item in
@@ -42,7 +41,6 @@ struct ContentView: View {
         }
     }
 }
-
 #Preview {
     ContentView()
 }

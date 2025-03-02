@@ -14,7 +14,6 @@ class AssignmentList: ObservableObject {
             }
         }
     }
-    
     init() {
         if let data = UserDefaults.standard.data(forKey: "assignments") {
             if let decodedData = try? JSONDecoder().decode([AssignmentItem].self, from: data) {
